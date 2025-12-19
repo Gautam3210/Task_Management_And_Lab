@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const readline = require('readline');
 
-const tasksData = 'tasksFile.json';
+const tasksData = __dirname +'/Task_management_and_lab' +'tasksFile.json';
 
 
 // ----------------TaskStructure Class----------------
